@@ -1,6 +1,6 @@
 AccountsTemplates.configure({
-    // hideSignInLink: true,
-    // hideSignUpLink:true,
+    hideSignInLink: true,
+    hideSignUpLink:true,
     texts :{
         title :{
             signIn : 'Login',
