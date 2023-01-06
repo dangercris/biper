@@ -1,0 +1,20 @@
+---
+version: 1
+service:
+  name: bipper-service
+  lifecycle: generally_available
+  tier: tier_1
+  product:
+  owner: final_products
+  language: Jasvascript
+  framework:
+  description: Bipper demo service for opslevel
+  aliases:
+  tags:
+  repositories:
+    - name: dangercris/bipper
+      path: "/"
+      provider: github
+      display_name: bipper-test-repo
+  tools:
+  dependencies:
